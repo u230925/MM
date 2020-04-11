@@ -20,7 +20,7 @@
 #make sure you have wrtie access
 RTEMS_VERSION=4.11
 LM32_PREFIX=/opt/lm32
-LM32_SOURCES_URL=ftp://ftp.rtems.org//pub/rtems/archive/SOURCES/$(RTEMS_VERSION)
+LM32_SOURCES_URL=https://ftp.rtems.org/pub/rtems/archive/SOURCES/$(RTEMS_VERSION)
 
 # For Mac OS X use curl.
 WGET=wget -c -O
